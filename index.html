@@ -3,106 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>足球能量餐火锅菜单</title>
+    <title>AI家长必修课</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
             margin: 0;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #007bff;
+            padding: 0;
+            background-color: #f7f7f7;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
+            padding: 20px;
+        }
+        .header, .footer {
+            background-color: #1a73e8;
+            padding: 10px;
+            text-align: center;
+        }
+        .header img, .footer img {
+            width: 150px;
+            height: auto;
+        }
+        .course-title {
+            text-align: center;
+            color: #333;
+            margin: 20px 0;
+        }
+        .lesson {
             background-color: #fff;
             padding: 20px;
+            margin-bottom: 15px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
-        }
-        .icon {
+        .lesson-title {
             font-size: 1.2em;
-            margin-right: 10px;
+            color: #1a73e8;
         }
-        .section {
-            margin-bottom: 30px;
+        .lesson-description {
+            margin-top: 8px;
+            color: #555;
+        }
+        .lesson-time {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+        .links {
+            margin-top: 10px;
+        }
+        .links a {
+            display: block;
+            margin-top: 5px;
+            color: #1a73e8;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .links a:before {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            vertical-align: middle;
+            background-size: contain;
+        }
+        .links a[href*="youtube.com"]:before {
+            background-image: url('https://cdn-icons-png.flaticon.com/512/1384/1384060.png');
+        }
+        .links a[href$=".pdf"]:before {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_Notes_icon.svg/1200px-Apple_Notes_icon.svg.png');
+        }
+        .links a[href*="forms.gle"]:before {
+            background-image: url('https://cdn-icons-png.freepik.com/512/5841/5841802.png');
+        }
+        .links a[href*="https://forms.gle/GqjFTF8pWLfPrKF86"]:before {
+            background-image: url('https://cdn-icons-png.flaticon.com/512/4658/4658943.png');
         }
     </style>
 </head>
 <body>
+    <!-- Header with logo -->
+    <div class="header">
+        <img src="https://codingmind.com/assets/img/CMLogo2024-white.png" alt="Coding Mind Logo">
+    </div>
+    
     <div class="container">
-        <h1>⚽️ 足球能量餐火锅菜单 ⚽️</h1>
-        <p>欢迎来到“足球能量餐”火锅大赛！每种食材都能提升你的足球能力，吃完它们，你会变得更强！选好你的食物，开始你的足球冒险吧！</p>
-
-        <div class="section">
-            <h2>1. 速度加成：快速冲刺！</h2>
-            <ul>
-                <li><span class="icon">🏃‍♂️</span><strong>去皮鸡胸肉</strong> (速度: +5)</li>
-                <li><span class="icon">🏃‍♂️</span><strong>虾</strong> (速度: +4)</li>
-            </ul>
+        <h1 class="course-title">AI家长必修课</h1>
+        <!-- <h3 class="course-title">第02期</h3> -->
+        
+        <div class="lesson">
+            <div class="lesson-title">第一讲：AI是一个神秘炼丹炉</div>
+            <div class="lesson-description">掌握使用AI的核心秘籍</div>
+            <div class="lesson-time">上课时间：美西时间 10月31日 9:30am-10:30am</div>
+            <div class="links">
+                <a href="https://www.youtube.com/playlist?list=PLSO4tiuu6d-EY_WClaN6ZNPP4AAsC0M5j">课程视频</a>
+                <a href="files/AI家长必修课第一讲笔记和作业.pdf">上课笔记</a>
+                <a href="https://forms.gle/gbxnne5YEnjsBUt76">作业链接</a>
+                <a href="https://forms.gle/GqjFTF8pWLfPrKF86">课堂反馈</a>
+            </div>
         </div>
-
-        <div class="section">
-            <h2>2. 力量提升：强力射门！</h2>
-            <ul>
-                <li><span class="icon">💪</span><strong>豆腐皮</strong> (力量: +3)</li>
-                <li><span class="icon">💪</span><strong>牛肉片</strong> (力量: +4)</li>
-            </ul>
+        
+        <div class="lesson">
+            <div class="lesson-title">第二讲：AI的秘籍升级</div>
+            <div class="lesson-description">探索高级提示术，让AI言听计从</div>
+            <div class="lesson-time">上课时间：美西时间 11月7日 9:30am-10:30am</div>
+            <!-- <div class="links">
+                <a href="#">课程录播视频</a>
+                <a href="#">上课笔记</a>
+                <a href="#">作业链接</a>
+                <a href="#">课堂反馈</a>
+            </div> -->
         </div>
-
-        <div class="section">
-            <h2>3. 体能恢复：永不疲倦！</h2>
-            <ul>
-                <li><span class="icon">🏋️</span><strong>嫩豆腐</strong> (体能: +3)</li>
-                <li><span class="icon">🏋️</span><strong>魔芋粉丝</strong> (体能: +2)</li>
-            </ul>
+        
+        <div class="lesson">
+            <div class="lesson-title">第三讲：AI是你的实习生</div>
+            <div class="lesson-description">用反馈和示例加速AI成长</div>
+            <div class="lesson-time">上课时间：美西时间 11月14日 9:30am-10:30am</div>
+            <!-- <div class="links">
+                <a href="#">课程录播视频</a>
+                <a href="#">上课笔记</a>
+                <a href="#">作业链接</a>
+                <a href="#">课堂反馈</a>
+            </div> -->
         </div>
-
-        <div class="section">
-            <h2>4. 耐力提升：奔跑全场！</h2>
-            <ul>
-                <li><span class="icon">🏃‍♀️</span><strong>菠菜</strong> (耐力: +5)</li>
-                <li><span class="icon">🏃‍♀️</span><strong>西兰花</strong> (耐力: +4)</li>
-            </ul>
+        
+        <div class="lesson">
+            <div class="lesson-title">第四讲：做AI终极玩家</div>
+            <div class="lesson-description">通过RAG赋能，定制你的专属AI</div>
+            <div class="lesson-time">上课时间：美西时间 11月21日 9:30am-10:30am</div>
+            <!-- <div class="links">
+                <a href="#">课程录播视频</a>
+                <a href="#">上课笔记</a>
+                <a href="#">作业链接</a>
+                <a href="#">课堂反馈</a>
+            </div> -->
         </div>
-
-        <div class="section">
-            <h2>5. 敏捷训练：灵活过人！</h2>
-            <ul>
-                <li><span class="icon">🏃‍♂️</span><strong>金针菇</strong> (敏捷: +3)</li>
-                <li><span class="icon">🏃‍♂️</span><strong>西葫芦</strong> (敏捷: +3)</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>6. 防守提升：铁壁防守！</h2>
-            <ul>
-                <li><span class="icon">🛡️</span><strong>白菜</strong> (防守: +4)</li>
-                <li><span class="icon">🛡️</span><strong>胡萝卜片</strong> (防守: +3)</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>7. 终极能量：超级必杀技！</h2>
-            <ul>
-                <li><span class="icon">⚡</span><strong>蘑菇</strong> (能量: +3)</li>
-                <li><span class="icon">⚡</span><strong>玉米</strong> (能量: +2)</li>
-            </ul>
-        </div>
-
-        <h2>踢球守则：</h2>
-        <p>每吃完一种食材，你就会获得相应的“足球技能加成”！你可以选择不同的食材来打造属于自己的足球明星！最后看谁能获得最多的加成点数，成为今天的冠军！</p>
+    </div>
+    
+    <!-- Footer with logo -->
+    <div class="footer">
+        <img src="https://codingmind.com/assets/img/CMLogo2024-white.png" alt="Coding Mind Logo">
     </div>
 </body>
-</html> 
-
+</html>
